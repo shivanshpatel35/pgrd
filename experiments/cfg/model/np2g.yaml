@@ -1,0 +1,10 @@
+defaults:
+  - elasticity: pointnet_nerf_elasticity
+  - friction: default
+  - _self_
+
+dynamics_type: 'np2g'
+ckpt: null
+clip_bound: 1.5
+eef_t: [0.0, 0.0, 0.0]
+gripper_radius: 0.04

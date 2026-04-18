@@ -1,0 +1,20 @@
+spp: 32
+width: 512
+height: 512
+skip_frame: 1
+bound: 1.5
+mpm_mul: 6
+sph_version: cuda_ad_rgb
+pcd_version: scalar_rgb
+has_sphere_emitter: true
+fps: 5
+radius_scale: 500
+center: [0.5, 0.3, 0.5]
+distance: 1.4
+azimuth: -125
+elevation: 30
+reflectance: [0.92941176, 0.32941176, 0.23137255]
+gs_center: [0., 0., 0.]
+gs_distance: 0.8
+gs_azimuth: 160
+gs_elevation: 20

@@ -1,0 +1,25 @@
+SPCONV_DISABLE_JIT=1 CUMM_DISABLE_JIT=1 QT_QPA_PLATFORM=offscreen PYVISTA_OFF_SCREEN=true MPLBACKEND=Agg python experiments/train/eval.py \
+    overwrite=True \
+    seed=1 \
+    resume=True \
+    debug=True \
+    sim.num_grippers=1 \
+    sim.gripper_rot=False \
+    train.name=flag_uiuc/train \
+    train.dataset_name=flag_uiuc/dataset-dx0.02-s1.0 \
+    train.source_dataset_name=data/flag_uiuc_merged/sub_episodes_v \
+    train.dataset_load_skip_frame=1 \
+    train.dataset_skip_frame=3 \
+    train.num_workers=8 \
+    train.batch_size=2 \
+    train.training_start_episode=0 \
+    train.training_end_episode=10 \
+    train.eval_start_episode=100 \
+    train.eval_end_episode=120 \
+    train.num_iterations=100000 \
+    train.iteration_eval_interval=10000 \
+    train.resume_iteration=3000 \
+    sim.num_fill_points=0
+    # train.name=rope_uiuc/train_exp_branch_minus0_kf_params \
+    # train.dataset_name=rope_uiuc/dataset-dx0.02-s1.0 \
+    # train.source_dataset_name=data/rope_uiuc_merged/sub_episodes_v \

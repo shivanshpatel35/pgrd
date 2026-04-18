@@ -1,0 +1,10 @@
+defaults:
+  - residualnet: pointnet_pbd_elasticity
+  - friction: default
+  - _self_
+
+dynamics_type: 'pbd'
+ckpt: null
+clip_bound: 1.5
+eef_t: [0.0, 0.0, 0.0]
+gripper_radius: 0.04

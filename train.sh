@@ -1,0 +1,25 @@
+SPCONV_DISABLE_JIT=1 CUMM_DISABLE_JIT=1 python experiments/train/train_eval.py \
+    overwrite=True \
+    resume=True \
+    debug=False \
+    sim.num_grippers=1 \
+    sim.gripper_rot=False \
+    train.name=paper_uiuc/train \
+    train.dataset_name=paper_uiuc/dataset-dx0.02-s1.0 \
+    train.source_dataset_name=data/paper_uiuc_merged/sub_episodes_v \
+    train.dataset_load_skip_frame=1 \
+    train.dataset_skip_frame=3 \
+    train.num_workers=4 \
+    train.batch_size=16 \
+    train.training_start_episode=0 \
+    train.training_end_episode=100 \
+    train.eval_start_episode=100 \
+    train.eval_end_episode=120 \
+    train.num_iterations=10000 \
+    train.iteration_eval_interval=10000 \
+    train.iteration_save_interval=500 \
+    sim.num_steps_train=5 \
+    sim.num_fill_points=0 \
+    train.iteration_log_interval=1 \
+    train.lazy_load=True \
+    train.residualnet_lr=1e-4

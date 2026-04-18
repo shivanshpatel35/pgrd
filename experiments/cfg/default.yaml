@@ -1,0 +1,27 @@
+defaults:
+  - model: residual
+  - render: debug
+  - sim: residual
+  - train: default
+  - sim_params: default
+  - _self_
+  - override hydra/job_logging: disabled
+  - override hydra/hydra_logging: disabled
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+seed: 0
+cpu: 0
+num_cpus: 128
+gpus: 
+  - 0
+overwrite: False
+resume: False
+debug: False
+visualize: False
+visualize_data: False
+save_starting_data: False
+visualize_residuals: False

@@ -1,0 +1,37 @@
+objects:
+  paper_uiuc:
+    threshold: 0.04898116795691419
+    stiffness: 489577.8643025939
+    damping: 410.9219441327786
+    max_springs_per_node: 388
+    ground_friction: 0.20417299792276536
+  rope_uiuc:
+    threshold: 0.033579901029421017
+    stiffness: 17058.96606568867
+    damping: 480.2903427097631
+    max_springs_per_node: 112
+    ground_friction: 0.42396459048466534
+  sloth_uiuc:
+    threshold: 0.04992082678047674
+    stiffness: 49592.88385790152
+    damping: 995.0057948864287
+    max_springs_per_node: 92
+    ground_friction: 0.4568526905451415
+  flag_uiuc:
+    threshold: 0.04985499290772055
+    stiffness: 49806.74684328477
+    damping: 99.67154513141276
+    max_springs_per_node: 392
+    ground_friction: 0.027623092065915157
+  cleaner_uiuc:
+    threshold: 0.04622205307589328
+    stiffness: 21318.699517991598
+    damping: 582.0259154179364
+    max_springs_per_node: 252
+    ground_friction: 0.3131765666503893
+  teddy_uiuc:
+    threshold: 0.0491291585903815
+    stiffness: 49101.87398475796
+    damping: 760.2451697435356
+    max_springs_per_node: 91
+    ground_friction: 0.13296752087490507

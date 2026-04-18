@@ -1,0 +1,7 @@
+cls: PointNetPBDAdaptiveMetaNP2G
+requires_grad: True
+output_scale: 1.0
+input_scale: 2.0
+radius: 0.2
+absolute_y: False
+pe_num_func_res: 0

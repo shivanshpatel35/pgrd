@@ -1,0 +1,24 @@
+defaults:
+  - model: residual
+  - render: debug
+  - sim: residual
+  - train: default
+  - cmaes_bounds: default
+  - _self_
+
+# Training-related overrides for optimisation – keep batches small
+train:
+  batch_size: 4
+  num_workers: 2
+  dataset_skip_frame: 3
+
+sim:
+  num_grippers: 1
+  num_fill_points: 0
+
+# Disable heavy rendering during optimisation
+visualize: false
+visualize_data: false
+
+cmaes:
+  param_bounds: ${cmaes_bounds.param_bounds}

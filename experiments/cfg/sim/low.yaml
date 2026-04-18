@@ -1,0 +1,23 @@
+quality: low
+num_steps_train: 5
+num_steps: 1000
+interval: 1
+gravity: [0.0, -9.8, 0.0]
+bc: friction_gripper
+num_grids: 50
+num_grids_flexible: [50, 50, 50, 0.02]
+dt: 0.1
+bound: 3
+eps: 1e-7
+skip_frame: 1
+num_cylinders: 0
+num_grippers: 1
+preprocess_scale: 1.0
+preprocess_with_table: True
+n_particles: 1000
+gripper_forcing: True
+gripper_rot: False
+gripper_points: False
+camera_dropout: False
+n_history: 2
+uniform: False
