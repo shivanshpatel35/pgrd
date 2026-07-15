@@ -2,8 +2,8 @@
 
 
 
-<a href="shivanshpatel35.github.io">Shivansh Patel</a><sup>1,2</sup>, <a href="https://kywind.github.io/">Kaifeng Zhang</a><sup>2,3*</sup>, <a href="https://www.linkedin.com/in/sanjaypokkali/">Sanjay Pokkali</a><sup>1*</sup>, <a href="https://slazebni.cs.illinois.edu/">Svetlana Lazebnik</a><sup>1</sup>, <a href="https://yunzhuli.github.io/">Yunzhu Li</a><sup>2,3</sup>
-<sup>1</sup>University of Illinois Urbana-Champaign, <sup>2</sup>SceniX, <sup>3</sup>Columbia University
+<a href="shivanshpatel35.github.io">Shivansh Patel</a><sup>1</sup>, <a href="https://kywind.github.io/">Kaifeng Zhang</a><sup>2*</sup>, <a href="https://www.linkedin.com/in/sanjaypokkali/">Sanjay Pokkali</a><sup>1*</sup>, <a href="https://slazebni.cs.illinois.edu/">Svetlana Lazebnik</a><sup>1</sup>, <a href="https://yunzhuli.github.io/">Yunzhu Li</a><sup>2</sup><br>
+<sup>1</sup>University of Illinois Urbana-Champaign, <sup>2</sup>Columbia University
 
 [Website](http://pgrd-robot.github.io/) | [Paper](https://pgrd-robot.github.io/static/pdf/paper.pdf)
 
